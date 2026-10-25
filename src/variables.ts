@@ -24,3 +24,18 @@ b = c
 console.log("the value of a after swap is " ,a , "\nand the value of b after swap is ", b)
 // console.log("the value of b is " ,b)
 
+//Q6 Login
+const appURL: string = "https://example.com/login"
+const username : string = "testUser"
+
+let loginAttempts: number = 0
+
+loginAttempts = loginAttempts + 2
+console.log(`
+    Login Test Details
+    ------------------------
+    Application URL : ${appURL}
+    Username : ${username}
+    Login Attempts : ${loginAttempts}
+    `)
+
