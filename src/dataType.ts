@@ -31,7 +31,6 @@
 // console.log("Remaining Balance after 300 spend extra: ", remainingBalance - 300)
 
 //q1
-
 const ricePrice: number = 84
 const sugarPrice: number = 48
 const oilPrice: number = 165
